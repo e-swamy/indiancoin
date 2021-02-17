@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/indiancoin/static/css/main.14686b14.chunk.css",
+    "main.js": "/indiancoin/static/js/main.8a0e8dcd.chunk.js",
+    "main.js.map": "/indiancoin/static/js/main.8a0e8dcd.chunk.js.map",
+    "runtime-main.js": "/indiancoin/static/js/runtime-main.13a98adc.js",
+    "runtime-main.js.map": "/indiancoin/static/js/runtime-main.13a98adc.js.map",
+    "static/js/2.08b3ceb8.chunk.js": "/indiancoin/static/js/2.08b3ceb8.chunk.js",
+    "static/js/2.08b3ceb8.chunk.js.map": "/indiancoin/static/js/2.08b3ceb8.chunk.js.map",
+    "static/js/3.bb05d67e.chunk.js": "/indiancoin/static/js/3.bb05d67e.chunk.js",
+    "static/js/3.bb05d67e.chunk.js.map": "/indiancoin/static/js/3.bb05d67e.chunk.js.map",
+    "index.html": "/indiancoin/index.html",
+    "static/css/main.14686b14.chunk.css.map": "/indiancoin/static/css/main.14686b14.chunk.css.map",
+    "static/js/2.08b3ceb8.chunk.js.LICENSE.txt": "/indiancoin/static/js/2.08b3ceb8.chunk.js.LICENSE.txt",
+    "static/media/Pexels-Videos-1409899.064e52bb.mp4": "/indiancoin/static/media/Pexels-Videos-1409899.064e52bb.mp4",
+    "static/media/forgot_password.svg": "/indiancoin/static/media/forgot_password.07344b57.svg",
+    "static/media/off_road.svg": "/indiancoin/static/media/off_road.1fd3a993.svg",
+    "static/media/personal_settings.svg": "/indiancoin/static/media/personal_settings.5a73c3ea.svg",
+    "static/media/savings.svg": "/indiancoin/static/media/savings.faa005a0.svg",
+    "static/media/secure_data.svg": "/indiancoin/static/media/secure_data.f804daa9.svg",
+    "static/media/setup_analytics.svg": "/indiancoin/static/media/setup_analytics.41aabb21.svg",
+    "static/media/signin_img.svg": "/indiancoin/static/media/signin_img.3fb49a56.svg",
+    "static/media/team_up.svg": "/indiancoin/static/media/team_up.45004e33.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13a98adc.js",
+    "static/js/2.08b3ceb8.chunk.js",
+    "static/css/main.14686b14.chunk.css",
+    "static/js/main.8a0e8dcd.chunk.js"
+  ]
+}
