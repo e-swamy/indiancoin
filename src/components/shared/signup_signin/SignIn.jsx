@@ -40,11 +40,11 @@ export class SignIn extends Component {
                                         <Form.Label htmlFor="password">Password</Form.Label>
                                     </Form.Group>
                                     <Form.Group>
-                                        <Link className="btn btn-theme-primary btn-block" type="submit" to="/india-coin">Signin</Link>
+                                        <Link className="btn btn-theme-primary btn-block" type="submit" to="/indiancoin">Signin</Link>
                                     </Form.Group>
                                 </Form>
                                 <Button variant="link" className="forgot-password-link" onClick={() => this.setState({ modalShow: true })}>Forgot password?</Button>
-                                <p className="login-wrapper-footer-text">Don't have an account? <Link to="/india-coin/signup" className="text-reset theme-text-primary">Register here</Link></p>
+                                <p className="login-wrapper-footer-text">Don't have an account? <Link to="/indiancoin/signup" className="text-reset theme-text-primary">Register here</Link></p>
                             </div>
                             <Image className="signin-img" src={require('../../../assets/images/signin_img.svg').default} alt="signin-img" />
                         </Col>
