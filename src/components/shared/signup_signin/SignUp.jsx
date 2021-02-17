@@ -37,7 +37,7 @@ export class SignIn extends Component {
                                         <Form.Label htmlFor="re-password">Re-Password</Form.Label>
                                     </Form.Group>
                                     <Form.Group>
-                                        <Link className="btn btn-theme-primary btn-block" type="submit" to="/">Register Now</Link>
+                                        <Link className="btn btn-theme-primary btn-block" type="submit" to="/india-coin">Register Now</Link>
                                     </Form.Group>
                                 </Form>
                             </div>

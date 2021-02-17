@@ -7,11 +7,11 @@ import SignUp from './components/shared/signup_signin/SignUp';
 
 function App() {
   return (
-    <Router onUpdate={() => window.scrollTo(0, 0)}>
+    <Router basename='/' onUpdate={() => window.scrollTo(0, 0)}>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/signin" component={SignIn} />
-        <Route exact path="/signup" component={SignUp} />
+        <Route exact path="/india-coin" component={Home} />
+        <Route exact path="/india-coin/signin" component={SignIn} />
+        <Route exact path="/india-coin/signup" component={SignUp} />
       </Switch>
     </Router>
   );
