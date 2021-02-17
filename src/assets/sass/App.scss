@@ -1,0 +1,209 @@
+@import "~bootstrap/scss/bootstrap";
+@import "vars";
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+@media (prefers-color-scheme: dark) {
+}
+
+.theme-text-primary {
+  color: $theme_seagreen !important;
+}
+.theme-text-secondary {
+  color: $theme_dark !important;
+}
+.theme-text-red {
+  color: $theme_red !important;
+}
+
+.theme-primary {
+  background: $theme_seagreen !important;
+}
+
+.theme-secondary {
+  background: $theme_dark !important;
+}
+
+// buttons
+a:focus,
+button:focus,
+.btn:focus,
+.btn.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-theme-primary {
+  padding: 8px 24px;
+  color: #ffffff;
+  background: $theme_seagreen;
+  border: 1px solid $theme_seagreen;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  i {
+    transition: transform all 0.3s;
+    transform: translateX(0);
+  }
+
+  &:hover,
+  &:active,
+  &:not(:disabled):not(.disabled):active,
+  &:focus {
+    color: #ffffff;
+    background: $theme_seagreenlight;
+    border: 1px solid $theme_seagreenlight;
+    i {
+      transform: translateX(4px);
+    }
+  }
+}
+
+.btn-theme-secondary {
+  padding: 8px 24px;
+  color: #ffffff;
+  background: $theme_dark;
+  border: 1px solid $theme_dark;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  i {
+    transition: transform all 0.3s;
+    transform: translateX(0);
+  }
+
+  &:hover,
+  &:active,
+  &:not(:disabled):not(.disabled):active,
+  &:focus {
+    color: #ffffff;
+    background: $theme_darklight;
+    border: 1px solid $theme_darklight;
+    i {
+      transform: translateX(4px);
+    }
+  }
+}
+
+.forgotpwd-form,
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+
+  input,
+  label,
+  textarea,
+  select {
+    padding: 0.75rem 0.75rem;
+  }
+
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.1s ease-in-out;
+  }
+
+  input {
+    height: 48px;
+  }
+
+  .custom-select.theme-select {
+    height: 48px;
+    background-position-y: 28px;
+  }
+
+  input,
+  textarea,
+  select {
+    &::placeholder {
+      color: transparent;
+    }
+
+    &:not(:placeholder-shown) {
+      padding-top: 18px;
+      padding-bottom: 0;
+    }
+
+    &:not(:placeholder-shown) ~ label {
+      padding-top: 5px;
+      padding-bottom: 0;
+      font-size: 12px;
+      color: #777;
+    }
+  }
+}
+
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 30px;
+  right: 0;
+  color: #ffffff;
+  background: $theme_seagreen;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px 0 0 10px;
+  line-height: 50px;
+  transition: 0.5s;
+  z-index: 1;
+}

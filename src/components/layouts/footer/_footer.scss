@@ -1,0 +1,52 @@
+.footer {
+    position: relative;
+
+    .footer-top {
+        .single_column .list-unstyled li {
+
+            a {
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                transition: 0.3s all;
+
+                i {
+                    transform: rotate(0deg);
+                }
+
+                &:focus,
+                &:hover {
+                    color: #ffffff;
+
+                    i {
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background: #090a0a;
+
+        .list-inline .list-inline-item {
+
+            a {
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+
+                &:focus,
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+
+            &:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+    }
+}

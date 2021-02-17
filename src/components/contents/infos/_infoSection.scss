@@ -1,0 +1,47 @@
+@import '../../../assets/sass/vars';
+
+.info_section {
+    position: relative;
+
+    .subtitle {
+        color: $theme_seagreenlight;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 400;
+        letter-spacing: .02rem;
+        text-transform: uppercase;
+    }
+
+    .infotitle {
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: 700;
+        letter-spacing: .04rem;
+        text-transform: uppercase;
+    }
+
+    .description {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    &.theme-secondary {
+
+        .infotitle {
+            color: #ffffff;
+        }
+        .description {
+            color: #adb5bd;
+        }
+    }
+
+    &.bg-white {
+
+        .infotitle {
+            color: $theme_dark;
+        }
+        .description {
+            color: $theme_darklight;
+        }
+    }
+}

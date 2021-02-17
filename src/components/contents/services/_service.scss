@@ -1,0 +1,29 @@
+@import '../../../assets/sass/vars';
+
+.service_section {
+  .service_single {
+    border: 2px solid #ffffff;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      border: 2px solid $theme_seagreen;
+      box-shadow: 4px 4px 0 $theme_seagreen;
+    }
+  }
+  .accordion_cards {
+    position: relative;
+    .card {
+      border-radius: 4px;
+      margin-bottom: 1rem;
+
+      .card-header {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: none;
+        background: #ffffff;
+      }
+    }
+  }
+}
