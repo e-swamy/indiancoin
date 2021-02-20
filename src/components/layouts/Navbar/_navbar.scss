@@ -6,7 +6,6 @@
   @media (prefers-color-scheme: dark) {
     background: $theme-darklight;
   }
-  
 
   .navbar-brand {
     font-family: "Rye", cursive;
@@ -100,5 +99,10 @@
   .navbar-toggler {
     padding: 0.25rem;
     line-height: 0.5;
+    color: $theme-dark;
+    border-color: rgba($theme-white, 0.2);
+    @media (prefers-color-scheme: dark) {
+      color: $theme-white;
+    }
   }
 }

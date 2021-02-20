@@ -58,9 +58,6 @@ body {
   font-size: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-}
-
 .theme-text-primary {
   color: $theme_seagreen !important;
 }
@@ -127,7 +124,7 @@ button:focus,
     background: $theme_seagreen;
     border: 1px solid $theme_seagreen;
   }
-  
+
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   i {
     transition: all 0.3s;
