@@ -10,7 +10,7 @@ export class SignIn extends Component {
                 <Container fluid={true}>
                     <Row>
                         <Col md={6} className="login-section-wrapper">
-                            <Link to="/" className="brand-wrapper d-flex">
+                            <Link to="/indiancoin" className="brand-wrapper d-flex">
                                 <span className="icon"><i className='bx bx-rupee' /></span> <span className="text-uppercase ml-2">Rupee</span>
                             </Link>
                             <div className="login-wrapper my-auto">
