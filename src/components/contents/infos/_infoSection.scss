@@ -1,47 +1,54 @@
-@import '../../../assets/sass/vars';
+@import "../../../assets/sass/vars";
 
 .info_section {
-    position: relative;
+  position: relative;
 
-    .subtitle {
-        color: $theme_seagreenlight;
-        font-size: 1rem;
-        line-height: 1.5;
-        font-weight: 400;
-        letter-spacing: .02rem;
-        text-transform: uppercase;
+  .subtitle {
+    color: $theme_seagreenlight;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+  }
+
+  .infotitle {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  &.theme-secondary {
+    .infotitle {
+      color: $theme-white;
+    }
+    .description {
+      color: rgba($theme-white, 0.4);
+      // color: #adb5bd;
+    }
+  }
+
+  &.theme-bg-white {
+    @media (prefers-color-scheme: dark) {
+      background: $theme_darklight !important;
     }
 
     .infotitle {
-        font-size: 2rem;
-        line-height: 1.5;
-        font-weight: 700;
-        letter-spacing: .04rem;
-        text-transform: uppercase;
+      color: $theme_dark;
+      @media (prefers-color-scheme: dark) {
+        color: $theme-white;
+      }
     }
-
+    
     .description {
-        font-size: 1rem;
-        line-height: 1.5;
+      color: rgba($theme-white, 0.4);
     }
-
-    &.theme-secondary {
-
-        .infotitle {
-            color: #ffffff;
-        }
-        .description {
-            color: #adb5bd;
-        }
-    }
-
-    &.bg-white {
-
-        .infotitle {
-            color: $theme_dark;
-        }
-        .description {
-            color: $theme_darklight;
-        }
-    }
+  }
 }

@@ -1,7 +1,12 @@
 @import "../../../assets/sass/vars";
 
 .navbar {
+  background: $theme-white;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  @media (prefers-color-scheme: dark) {
+    background: $theme-darklight;
+  }
+  
 
   .navbar-brand {
     font-family: "Rye", cursive;
@@ -65,6 +70,9 @@
       position: relative;
       cursor: pointer;
       color: $theme_dark;
+      @media (prefers-color-scheme: dark) {
+        color: $theme-white;
+      }
       font-weight: 600;
 
       &:hover,

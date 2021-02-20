@@ -34,7 +34,7 @@ export default function NavbarSection() {
         }
     ]
     return (
-        <Navbar expanded={expanded} collapseOnSelect expand="lg" bg="white" variant="light" sticky="top">
+        <Navbar expanded={expanded} collapseOnSelect expand="lg" sticky="top">
             <Container>
                 <Navbar.Brand as={Link} to="home" className="d-flex align-items-center text-uppercase py-0"
                     smooth={true}

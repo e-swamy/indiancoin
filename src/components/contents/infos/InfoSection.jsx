@@ -11,7 +11,7 @@ export class InfoSection extends Component {
                 {
                     this.props.propsSendTag.infoData.map((item, index) => {
                         return (
-                            <div key={index} id={item.id} className={`info_section py-5 ${item.bgColor === 'false' ? 'bg-white' : 'theme-secondary'}`}>
+                            <section key={index} id={item.id} className={`info_section py-5 ${item.bgColor === 'false' ? 'theme-bg-white' : 'theme-secondary'}`}>
                                 <Container>
                                     <Row className={`align-items-center justify-content-md-between ${item.directionRow === 'true' ? 'flex-row' : 'flex-row-reverse'}`}>
                                         <Col xl={5} lg={5} md={12}>
@@ -27,7 +27,7 @@ export class InfoSection extends Component {
                                         </Col>
                                     </Row>
                                 </Container>
-                            </div>
+                            </section>
                         )
                     })
                 }

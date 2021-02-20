@@ -56,8 +56,8 @@ h6 {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  scroll-behavior: smooth;
 }
+
 @media (prefers-color-scheme: dark) {
 }
 
@@ -70,11 +70,16 @@ body {
 .theme-text-red {
   color: $theme_red !important;
 }
+.theme-text-white {
+  color: $theme-white !important;
+}
 
 .theme-primary {
   background: $theme_seagreen !important;
 }
-
+.theme-bg-white {
+  background: $theme-white !important;
+}
 .theme-secondary {
   background: $theme_dark !important;
 }
@@ -95,7 +100,7 @@ button:focus,
   border: 1px solid $theme_seagreen;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   i {
-    transition: transform all 0.3s;
+    transition: all 0.3s;
     transform: translateX(0);
   }
 
@@ -117,9 +122,15 @@ button:focus,
   color: #ffffff;
   background: $theme_dark;
   border: 1px solid $theme_dark;
+
+  @media (prefers-color-scheme: dark) {
+    background: $theme_seagreen;
+    border: 1px solid $theme_seagreen;
+  }
+  
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   i {
-    transition: transform all 0.3s;
+    transition: all 0.3s;
     transform: translateX(0);
   }
 
@@ -130,6 +141,12 @@ button:focus,
     color: #ffffff;
     background: $theme_darklight;
     border: 1px solid $theme_darklight;
+
+    @media (prefers-color-scheme: dark) {
+      background: $theme_seagreenlight;
+      border: 1px solid $theme_seagreenlight;
+    }
+
     i {
       transform: translateX(4px);
     }

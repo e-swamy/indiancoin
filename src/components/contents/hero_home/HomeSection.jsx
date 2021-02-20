@@ -7,7 +7,7 @@ import bgVideo from '../../../assets/videos/Pexels-Videos-1409899.mp4'
 export class HomeSection extends Component {
     render() {
         return (
-            <div className="home_section" id="home">
+            <section className="home_section" id="home">
                 <video className="home_section_video_bg" autoPlay loop playsInline muted>
                     <source src={bgVideo} type="video/mp4" />
                 </video>
@@ -22,7 +22,7 @@ export class HomeSection extends Component {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </section>
         )
     }
 }
