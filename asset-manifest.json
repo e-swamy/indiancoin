@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/indiancoin/static/css/main.0dfd05e2.chunk.css",
-    "main.js": "/indiancoin/static/js/main.d196b6dc.chunk.js",
-    "main.js.map": "/indiancoin/static/js/main.d196b6dc.chunk.js.map",
+    "main.js": "/indiancoin/static/js/main.817f0be5.chunk.js",
+    "main.js.map": "/indiancoin/static/js/main.817f0be5.chunk.js.map",
     "runtime-main.js": "/indiancoin/static/js/runtime-main.13a98adc.js",
     "runtime-main.js.map": "/indiancoin/static/js/runtime-main.13a98adc.js.map",
     "static/js/2.08b3ceb8.chunk.js": "/indiancoin/static/js/2.08b3ceb8.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.13a98adc.js",
     "static/js/2.08b3ceb8.chunk.js",
     "static/css/main.0dfd05e2.chunk.css",
-    "static/js/main.d196b6dc.chunk.js"
+    "static/js/main.817f0be5.chunk.js"
   ]
 }
